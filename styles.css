@@ -1,0 +1,373 @@
+/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background-color: #f5ebdc;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #f5ebdc;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #065a37;
+  border-radius: 10px;
+  border-right: 2px solid #f5ebdc;
+  border-left: 2px solid #f5ebdc;
+}
+body::-webkit-scrollbar-thumb:horizontal {
+  background: #065a37; 
+  border-radius: 10px;
+  border-top: 2px solid #f5ebdc; 
+  border-bottom: 2px solid #f5ebdc; 
+}
+
+/* Menu Vista Cliente */
+
+.navbar {
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  border-radius: 15px;
+  background: #097D4C;
+}
+
+.navbar-toggler {
+  background-color: #f5ebdc;
+  border: none;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-item {
+  margin: 0 15px;
+}
+.navbar-nav .nav-link {
+  font-size: 20px;
+  color: #f5ebdc;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+.navbar-brand img {
+  max-width: 200px;
+}
+.navbar-light {
+  color: #f5ebdc;
+}
+
+
+
+
+
+/* Cards Promo Inicio */
+
+
+
+
+.container.mb-4 {
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 15px ;
+  border: none;
+  box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.carousel-inner {
+  width: 100%; 
+  height: auto;
+}
+
+
+/* FOOTER */
+footer {
+  margin-top: 0%;
+  background-color: #097D4C;
+  color: aliceblue;
+  text-align: center;
+}
+footer h5 {
+  font-weight: bold;
+  color: #f5ebdc;
+}
+footer a {
+  color: #f5ebdc;
+}
+footer a:hover{
+  color: #fddfb1;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+footer p {
+  align-items: center;
+  justify-content: center;
+  color: #f5ebdc;
+}
+
+
+/* Login */
+.textLogin{
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
+}
+.textRecuperar{
+    font-size: 15px;
+    color: #ffffff;
+}
+.textRecuperar:hover{
+  color: #000000;
+  box-shadow: #000;
+  text-decoration: none;
+}
+.bg-black {
+  background-color: #000 ;
+}
+ .verClave {
+  border: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.verClave:hover {
+  border: none;
+}
+
+.verimg{
+  width: 30px;
+  height: 30px;
+  
+  opacity: 0.7;
+  cursor: pointer;
+}
+.verimg:hover {
+  opacity: 0.9;
+} 
+
+
+form{
+  color: white;
+}
+.invalid-feedback{
+  text-align: center;
+  background-color: rgb(189, 73, 73);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.loginUser{
+  margin-top: 70px;
+  border-radius: 25px;
+  margin-bottom: 297px;
+}
+
+.margen20{
+  margin-top: 30px;
+}
+
+.btn-info {
+  width: 50%;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  transition: box-shadow 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #ebebeb;
+  color: black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Registro */
+
+.input-error {
+  border: 1px solid red ;
+}
+
+.textRegistro{
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.btn-registro {
+  margin-top: 20px;
+  width: 50%;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  transition: box-shadow 0.3s ease;
+}
+.btn-registro:hover {
+  background-color: #ebebeb;
+  color: black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos tablas */
+
+.tabla-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 0 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  margin: 30px auto;
+}
+.botonBorrar{
+  width: 40%;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(214, 51, 51);
+}
+.botonModificar{
+  width: 40%;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(85, 212, 85);
+}
+
+/* Cards Carta */
+
+.text-tipo{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.custom-card {
+  width: 20rem;
+  margin: 20px;
+}
+
+.custom-card img {
+  width: 320px;
+  height: 200px;
+}
+
+/* Ventanas Emergentes */
+
+.modalVentana{
+  background-color: #097D4C;
+}
+.modal-title {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+.btn-close{
+  width: 30%;
+  border: none;
+  background-color: #e27575;
+  color: rgb(255, 255, 255);
+  transition: box-shadow 0.3s ease;
+}
+
+.btn-close:hover {
+  background-color: #e27575;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+.btn-Abrir{
+  border: none;
+  background-color: #097D4C;
+  color: rgb(255, 255, 255);
+  transition: box-shadow 0.3s ease;
+}
+
+
+.btn-Abrir:hover {
+  background-color: #0d633f;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.btn-Modal{
+  width: 40%;
+  border: none;
+  background-color: #097D4C;
+  color: rgb(255, 255, 255);
+  transition: box-shadow 0.3s ease;
+}
+
+
+.btn-Modal:hover {
+  background-color: #0d633f;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.modal-header {
+  
+  background-color: #097D4C;
+}
+.modalVentana {
+  color: white;
+  text-align: center;
+}
+.modal-footer {
+  display: flex;
+  justify-content: center;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+.btn-primary, .btn-secondary {
+  margin: 0 5px;
+}
+
+.formulario {
+    background-color: #097D4C;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.table-danger .botonAccion {
+  display: none;
+}
